@@ -1,6 +1,5 @@
 # Problem 97: Remove element from list
 # Find and fix the error
-
 def remove_element(nums, val):
     i = 0
     for j in range(len(nums)):
