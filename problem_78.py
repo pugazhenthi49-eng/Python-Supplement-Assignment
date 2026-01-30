@@ -9,6 +9,5 @@ def find_duplicates(lst):
             duplicates.append(item)
         seen.add(item)
     return duplicates
-
 numbers = [1, 2, 3, 2, 4, 3, 5]
 print(f"Duplicates: {find_duplicates(numbers)}")
