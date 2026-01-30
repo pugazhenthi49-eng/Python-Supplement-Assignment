@@ -1,6 +1,5 @@
 # Problem 70: Find all prime numbers up to n
 # Find and fix the error
-
 def find_primes(n):
     primes = []
     for num in range(2, n):
@@ -12,5 +11,4 @@ def find_primes(n):
         if is_prime:
             primes.append(num)
     return primes
-
 print(f"Primes up to 20: {find_primes(20)}")
