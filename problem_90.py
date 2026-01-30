@@ -1,6 +1,5 @@
 # Problem 90: Find median of a list
 # Find and fix the error
-
 def find_median(lst):
     sorted_lst = sorted(lst)
     n = len(sorted_lst)
