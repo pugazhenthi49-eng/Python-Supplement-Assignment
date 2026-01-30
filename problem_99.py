@@ -1,6 +1,5 @@
 # Problem 99: Find maximum subarray sum
 # Find and fix the error
-
 def max_subarray_sum(arr):
     max_sum = arr[0]
     current_sum = arr[0]
