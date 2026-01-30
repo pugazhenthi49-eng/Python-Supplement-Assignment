@@ -1,6 +1,5 @@
 # Problem 64: Merge two sorted lists
 # Find and fix the error
-
 def merge_sorted(list1, list2):
     merged = []
     i, j = 0, 0
@@ -14,7 +13,6 @@ def merge_sorted(list1, list2):
     merged.extend(list1[i:])
     merged.extend(list2[j:])
     return merged
-
 l1 = [1, 3, 5]
 l2 = [2, 4, 6]
 print(f"Merged: {merge_sorted(l1, l2)}")
