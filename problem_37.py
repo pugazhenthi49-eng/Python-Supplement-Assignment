@@ -6,5 +6,5 @@ def is_leap_year(year):
         return True
     else:
         return False
-
+print(f"Is 2000 a leap year? {is_leap_year(2000)}")
 print(f"Is 1900 a leap year? {is_leap_year(1900)}")
