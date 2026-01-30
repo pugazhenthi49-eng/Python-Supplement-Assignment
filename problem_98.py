@@ -1,6 +1,5 @@
 # Problem 98: Check if power of two
 # Find and fix the error
-
 def is_power_of_two(n):
     if n <= 0:
         return False
